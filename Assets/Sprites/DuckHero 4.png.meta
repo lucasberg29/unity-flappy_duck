@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 337fda6aef559234992af3ad397295d0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DuckHero_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 174
+        width: 185
+        height: 176
+      alignment: 9
+      pivot: {x: 0.50313133, y: -0.0069004404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.873108, y: -87.55673}
+        - {x: -86.30841, y: -78.867004}
+        - {x: -86.30841, y: 84.49979}
+        - {x: -12.5, y: 84}
+        - {x: 2.5, y: 33}
+        - {x: 49.5, y: 1}
+        - {x: 92.5, y: -34.259766}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2791fdc1b90794886bbdbefaa1f033
+      internalID: 665694362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckHero 4_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 234
+        width: 132
+        height: 155
+      alignment: 9
+      pivot: {x: 0.49561334, y: -0.004298253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.8826, y: -77.5}
+        - {x: -55.111496, y: -15.123383}
+        - {x: -40.745575, y: 58.75168}
+        - {x: 54.84137, y: 73.81387}
+        - {x: 66, y: -72.17351}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e00d42a1bced88408010aa3af3c0b58
+      internalID: -1022956802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuckHero 4_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 53
+        width: 475
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -192.40485, y: -90.99899}
+        - {x: -117.67323, y: 22.546692}
+        - {x: 6.4342346, y: 93.18872}
+        - {x: 211.70117, y: 91.496}
+        - {x: 235.12952, y: 38.188187}
+        - {x: -74.22464, y: -90.99899}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212a48337b37c5d4e8e928a7d5560345
+      internalID: 278666902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -107, y: 166.5}
+      - {x: -108, y: 165.5}
+      - {x: -125, y: 153.5}
+      - {x: -185, y: 142.5}
+      - {x: -208, y: 55.5}
+      - {x: -95, y: -29.5}
+      - {x: 19, y: 45.5}
+      - {x: -21, y: 189.5}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DuckHero 4_0: -1022956802
+      DuckHero_0: 324632092
+      DuckHero_2: -991439171
+      DuckHero_1: 665694362
+      DuckHero 4_1: 278666902
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
