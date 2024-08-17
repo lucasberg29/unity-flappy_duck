@@ -1,4 +1,0 @@
-repository "DuckGame@PersonalProjects_LucasBerg@cloud"
-  path "/"
-    br "/main"
-    co "/main"
