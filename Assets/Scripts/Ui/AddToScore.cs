@@ -9,6 +9,11 @@ public class AddToScore : MonoBehaviour
 
     private static int score = 0;
 
+    public void Start()
+    {
+        score = PlayerPrefs.GetInt("HighestScore");
+    }
+
     public void IncreaseScore()
     {
         score = score + 1;

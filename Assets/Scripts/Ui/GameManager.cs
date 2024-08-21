@@ -114,11 +114,16 @@ public class GameManager : MonoBehaviour
     public void AddOneToScore()
     {
         ++currentScore;
+
+        if (currentScore > PlayerPrefs.GetInt("HighestScore"))
+        {
+            PlayerPrefs.SetInt("HighestScore", currentScore);
+        }
     }
 
     public int GetHighestScore()
     {
-        return highestScore;
+        return PlayerPrefs.GetInt("HighestScore");
     }
 
     public void SetHighestScore( int score )

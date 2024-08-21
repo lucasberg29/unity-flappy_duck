@@ -25,6 +25,8 @@ public class DuckHero : MonoBehaviour
 
     private Animator duckAnimator;
 
+    public OceanManager oceanManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,26 +45,28 @@ public class DuckHero : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0))
         {
-            if (GameManager.Instance.GetIsPaused())
+            if (oceanManager.isGameRunning)
             {
-                GameManager.Instance.ResumeGame();
-                canvas.GetComponent<CanvasManager>().ResumeGame();
-            }
-            else
-            {
-                if ( duckAnimator.GetBool("IsFlapping"))
+                if (GameManager.Instance.GetIsPaused())
                 {
-                    duckAnimator.Play("WingFlap");
+                    GameManager.Instance.ResumeGame();
+                    canvas.GetComponent<CanvasManager>().ResumeGame();
                 }
                 else
                 {
-                    duckAnimator.SetBool("IsFlapping", true);
+                    if (duckAnimator.GetBool("IsFlapping"))
+                    {
+                        duckAnimator.Play("WingFlap");
+                    }
+                    else
+                    {
+                        duckAnimator.SetBool("IsFlapping", true);
+                    }
+
+                    Vector2 forceToAdd = new Vector2(0.0f, yForce);
+                    wingSound.Play();
+                    rigidBody2D.AddForce(forceToAdd);
                 }
-
-                Vector2 forceToAdd = new Vector2(0.0f, yForce);
-                wingSound.Play();
-                rigidBody2D.AddForce(forceToAdd);
-
             }
         }
 
@@ -83,7 +87,6 @@ public class DuckHero : MonoBehaviour
             canvas.GetComponent<CanvasManager>().GameOver();
             scoreScript.ResetScore();
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Score
   - GameOver
+  - Canvas
+  - Ui
+  - EnableMusicIcon
   layers:
   - Default
   - TransparentFX
